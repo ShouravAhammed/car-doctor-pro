@@ -13,5 +13,21 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: [
+      {
+        carDoctorPro: {
+          "primary": "#FF3811",
+          "title": "#151515",
+          "third": "#444444",
+          "neutral": "#3d4451",
+          "base-100": "#ffffff",
+        },
+      },
+      "light",
+    ],
+  },
 };
