@@ -76,7 +76,7 @@ const Navbar = () => {
       <div className="flex justify-center items-center gap-5">
       <BsHandbag className="text-2xl hover:text-[#FF3811] duration-300"/>
       <CiSearch className="text-2xl  hover:text-[#FF3811] duration-300" />
-    <button className="px-6 py-2 rounded-md border-2 border-[#FF3811] text-[#FF3811] capitalize hover:text-white hover:bg-[#FF3811] outline-none duration-300">Appointment</button>
+    <button className="btn btn-primary btn-outline px-8 duration-300">Appointment</button>
       </div>
   </div>
 </div>

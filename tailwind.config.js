@@ -20,14 +20,20 @@ module.exports = {
     themes: [
       {
         carDoctorPro: {
+          ...require("daisyui/src/theming/themes")["light"],
           "primary": "#FF3811",
-          "title": "#151515",
-          "third": "#444444",
-          "neutral": "#3d4451",
-          "base-100": "#ffffff",
+          "secondary": "teal",
+
+          ".btn-primary": {
+            "color": "fff",
+          },
+          ".btn-outline.btn-primary:hover": {
+            "color": "#fff",
+          }
+
         },
       },
-      "light",
+
     ],
   },
 };
